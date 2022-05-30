@@ -5,6 +5,10 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --background-color: #0165c3;
     --text-color: #ffffff;
@@ -703,6 +707,7 @@
 #footer .title-end {
     text-align: center;
     letter-spacing: 1px;
+    padding-bottom: 20px;
 }
 
 /* end footer */
